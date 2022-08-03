@@ -1,17 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>Rick And Morty<CharacterList></CharacterList></div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import CharacterList from "./components/CharacterList.vue";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  components: { CharacterList },
+};
 </script>
 
 <style>
